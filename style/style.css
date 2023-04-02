@@ -1,0 +1,40 @@
+body{background-color: rgb(230, 155, 102);
+}
+#kop{
+        height: 250px;
+}
+#headlogo{
+    height: 200px;
+    width: 200px;
+    margin-top: 23px;
+    margin-left: 23px;
+    background-color: red;
+}
+#textheader{
+    margin-top: 83px;
+}
+#headertext{
+    color: blanchedalmond;
+    padding-right: 225px;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes header{
+    0% {color: white;}
+    25% {color: red;}
+    50% {color: rgb(255, 255, 255);}
+    100% {color: black;}
+}
+h3{background-color: rgb(255, 255, 0);
+}
+#formulier{
+    margin-top: 100px;
+}
+#knop:hover{
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
